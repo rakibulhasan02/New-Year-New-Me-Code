@@ -56,3 +56,54 @@ header .heading-container p{
     border: none;
 }
 
+/* #failure{
+     
+    width: 70%;
+    
+    max-width: 1072px;
+     margin: 0 auto;
+    border: 1px solid black;
+    
+} */
+#failure .failure-container{
+   width: 70%;
+    
+    max-width: 1072px;
+     margin: 0 auto;
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 87px;
+    justify-content: center;
+    margin-top: 131px;
+
+}
+#failure .failure-container .failure-image{
+    max-width: 569px;
+}
+#failure .failure-container .failure-info{
+    width: 416px;
+    padding-top: 370px;
+}
+#failure .failure-container .failure-info h3{
+    color: #151414;
+    font-size: 40px;
+    margin-bottom: 24px;
+    width: 288px;
+}
+#failure .failure-container .failure-info p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+#failure .failure-container .failure-info .bulet-point{
+    list-style: none;
+}
+ .failure-info .bulet-point li::before{
+   
+  content: "✔ ";
+  color:#16D887;
+
+}
+
+
