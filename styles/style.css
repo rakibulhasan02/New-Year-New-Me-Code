@@ -114,6 +114,7 @@ header .heading-container p{
     /* border: 1px solid black; */
     margin: 0 auto;
     text-align: center;
+    margin-bottom: 130px;
 }
 #plan h2{
     font-size: 40px;
@@ -145,6 +146,109 @@ header .heading-container p{
     color: #737272;
     font-size: 24px;
     font-weight: 300;
+    /* margin-bottom: 130px; */
+}
+#banner{
+    /* border: 1px solid black; */
+    width: 71%;
+    height: 340px;
+    max-width: 1140px;
+    margin: 0 auto;
+  background-image:
+        url("../images/gradient2.png"),
+        url("../images/watch.png");
+
+    background-repeat: no-repeat, no-repeat;
+
+    background-size: cover, cover;
+
+    background-position:top center, center;
+    border-radius: 8px;
+    position:relative;
+}
+#banner .banner-container{
+    /* border: 1px solid  black; */
+    width: 469px;
+    /* height: 182px; */
+    margin-top: 59px;
+    position: absolute;
+    top: 59px;            /* figma Y */
+    left: 40px;
+    
+}
+.banner-container h3{
+    color: #FFFFFF;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.banner-container .btn{
+    background-color: #FFFFFF;
+    color:#F15B22;
+    border-radius: 5px;
+    padding: 20px 36px;
+    font-size: 20px;
 }
 
+footer{
+    width: 99%;
+    max-width: 1600px;
+    background-color: #151414;
+    margin-top: 130px;
+}
 
+.footer-container{
+    padding: 130px 230px;
+    display: flex;
+    margin: 0 auto;
+    gap: 331px;
+}
+.footer-container .future{
+    /* border: 1px solid white; */
+    width: 485px;
+    
+}
+.footer-container .future h2{
+    color: #F8F8F8;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+.footer-container .future p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.future .contact a{
+    margin-right: 17px;
+}
+.footer-container .subscriber{
+    /* border: 1px solid white; */
+    width: 325px;
+    
+
+}
+.footer-container .subscriber h2{
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-bottom: 31px;
+}
+.footer-container .subscriber input[type="email"]{
+    border-radius: 8px;
+    width: 325px;
+    min-height: 64px;
+    background: none;
+    border-color: #FFFFFF;
+    color:#F3F3F3;
+    padding: 22px;
+    margin-bottom: 16px;
+
+}
+.subscriber .btn1{
+    width: 170px;
+    height: 64px;
+    color: #F15B22;
+    padding: 20px 36px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: 300;
+}
