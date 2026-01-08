@@ -75,6 +75,7 @@ header .heading-container p{
     gap: 87px;
     justify-content: center;
     margin-top: 131px;
+    margin-bottom: 130px;
 
 }
 #failure .failure-container .failure-image{
@@ -104,6 +105,46 @@ header .heading-container p{
   content: "✔ ";
   color:#16D887;
 
+}
+
+#plan{
+    
+    width: 1141px;
+    /* margin-top: 130px; */
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    text-align: center;
+}
+#plan h2{
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 55.7px;
+}
+#plan .plan-container{
+    /* border: 1px solid black; */
+    width: 1141px;
+    display: flex;
+    margin: 0 auto;
+    gap:86px;
+    justify-content: space-around;
+}
+.plan-container .plan-style{
+    padding-top: 6px;
+    width: 270px;
+}
+.plan-container .plan-style img{
+    width: 92.92px;
+    margin-bottom: 24px;
+}
+.plan-container .plan-style h3{
+    color: #151414;
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+.plan-container .plan-style p{
+    color: #737272;
+    font-size: 24px;
+    font-weight: 300;
 }
 
 
